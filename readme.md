@@ -11,4 +11,4 @@
 - The Project took almost 1 day to complete.
 
 ## LIVE LINK
-[NETLIFY](https://cssproject-11.netlify.app)
+[NETLIFY](https://cssproject-12.netlify.app)
