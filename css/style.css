@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background:linear-gradient(#253898 , #5737D6);
+    height: 600px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a:hover{
+    font-size: 17px;
+}
+
+.btn-navbar{
+    margin-top: 13px;
+    margin-right: 25px;
+    width: 105px;
+    height: 31px;
+    border-radius: 3px;
+    border: 1px solid rgb(36, 82, 235);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.btn-navbar:hover{
+    box-shadow: 1px 1px 10px rgb(36,82,235);
+}
+
+/* hero1 */
+.hero1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img img{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 450px;
+    height: 470px;
+}
+
+.hero1-right{
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.hero1-right h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: white;
+    line-height: 60px;
+}
+
+.hero1-right p{
+    color: rgb(248, 222, 222);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.hero1-right input{
+    padding-left: 50px;
+    margin-top: 20px;
+    height: 40px;
+    width: 410px;
+    outline: none;
+}
+
+.fa-solid {
+    position: absolute;
+    top:437px;
+    left:700px;
+}
+
+.btn-hero1{
+    margin-top: 13px;
+    margin-right: 25px;
+    width: 105px;
+    height: 31px;
+    border: 2px solid transparent;
+    background-color:lightseagreen;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    right: 115px;
+}
+
+/* hero2 */
+
+.hero2{
+    margin-bottom: 30px;
+}
+
+.hero2 h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* hero3 */
+
+.hero3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.hero3 h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero3 p{
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* hero4 */
+.hero4-img{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero4-img img{
+    height: 550px;
+    width: 1000px;
+}
+
+/* hero5 */
+.hero5{
+   margin-top: 65px;
+   margin-bottom:35px;
+}
+
+.hero5 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:50px;
+    text-align: center;
+    line-height: 48px;
+}
+
+/* hero6 */
+
+.hero6{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.hero6-left {
+    margin-top: 75px; 
+}
+
+.hero6-left h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero6-left p{
+    margin-top: 5px;
+    color: rgb(94, 94, 94);
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.hero6-btn{
+  
+    width: 110px;
+    height: 37px;
+    border: 2px solid transparent;
+    background-color:#1FAA59;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top:25px;
+    
+}
+
+.hero6-btn:hover{
+    box-shadow: 1px 1px 10px #1FAA59;
+}
+.hero6-right img{
+ background-size: contain;
+ height: 350px;
+ width: 465px;
+}
+
+/* hero7 */
+.hero7{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.hero7-left img{
+ height: 500px;
+ width: 400px;
+}
+
+.hero7-left {
+    margin-top: 30px; 
+}
+
+.hero7-right{
+    margin-top: 110px;
+    margin-right: 100px;
+}
+.hero7-right h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.hero7-right p{
+    margin-top: 5px;
+    color: rgb(94, 94, 94);
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.hero7-btn{
+  
+    width: 110px;
+    height: 37px;
+    border: 2px solid transparent;
+    background-color:#1FAA59;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top:25px;
+    
+}
+
+.hero7-btn:hover{
+    box-shadow: 1px 1px 10px #1FAA59;
+
+}
+
+/* hero8 */
+.hero8{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.hero8-left {
+    margin-top: 105px; 
+}
+
+.hero8-left h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.hero8-left p{
+    margin-top: 5px;
+    color: rgb(94, 94, 94);
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.hero8-btn{
+  
+    width: 110px;
+    height: 37px;
+    border: 2px solid transparent;
+    background-color:#1FAA59;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top:25px;
+    
+}
+
+.hero8-btn:hover{
+    box-shadow: 1px 1px 10px #1FAA59;
+}
+.hero8-right img{
+ background-size: contain;
+ height: 350px;
+ width: 465px;
+ margin-top: 30px;
+}
+
+/* hero9 */
+
+.hero9{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    width: 76%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.hero9-left h1{
+font-size:40px;
+line-height: 40px;
+}
+
+.hero9-right{
+    margin-top: 10px;
+}
+.hero9-right p{
+    color: rgb(88, 88, 88);
+    line-height: 20px;
+    font-size: 16px;
+}
+
+/* hero10 */
+
+.cards{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 30px;
+}
+
+
+.card img{
+ height:350px;
+ width:300px;
+}
+
+.card h1{
+    font-size: 18px;
+    margin:8px 0px;
+}
+
+.card p{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(92, 87, 87);
+}
+
+.btm-hero10{
+ height: 100px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero10-btn{
+    width: 125px;
+    height: 42px;
+    border: 2px solid transparent;
+    background-color:#1FAA59;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero10-btn:hover{
+    box-shadow: 1px 1px 10px #1FAA59;
+}
+
+/* footer */
+footer{
+    background-color: rgb(34, 34, 34);
+    height:315px;
+}
+
+.footer-first{
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    margin: auto;
+    color: white;
+}
+
+.footer-first img{
+    margin-top: 30px;
+    height: 35px;
+}
+
+.footer-first-right{
+    margin-top: 30px;
+}
+
+.fa-brands{
+    margin-left:10px;
+    margin-top:10px;
+    padding:5px;
+    background-color: rgb(68, 67, 67);
+    border-radius:50px;
+}
+
+.line{
+    margin-left: 160px;
+    margin-top:20px;
+    width: 76%;
+    height: 1px;
+    background-color: white;
+    color: white;
+
+}
+
+.footer-second{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 76%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.same{
+    line-height: 30px;
+}
+.same h1{
+    color: white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.same h5{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    color:rgb(122, 117, 117);
+}
+
