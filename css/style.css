@@ -1295,3 +1295,345 @@ height: 480px;
     font-size:10px;
 }
 }
+
+/*  */
+@media(min-width:769px) and (max-width:992px){
+ 
+
+.head{
+    background-color: #758283;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+
+.logo img{
+    height:35px;
+}
+
+
+.navbar ul li{
+    padding: 0px 8px;
+}
+
+
+
+.btn-navbar{
+    margin-right:15px;
+    width:95px;
+    height:28px;
+}
+
+
+/* hero1 */
+
+.img{
+    width:50%;
+}
+
+.img img{
+    margin-left:30px;
+    width:80%;
+    height: 400px;
+}
+
+.hero1-right{
+    margin-right:50px;
+    width: 50%;
+}
+
+.hero1-right h1{
+    font-size:45px;
+    line-height:47px;
+}
+
+.hero1-right p{
+    font-size: 14px;
+    line-height:20px;
+}
+
+
+ /* hero6 */
+ 
+ .hero6-left {
+     margin-top:30px; 
+     width:60%;
+     padding-right:10px;
+ }
+ 
+ .hero6-left h1{
+     font-size:28px;
+ }
+ 
+ .hero6-left p{
+     margin-top: 5px;
+     font-size: 12px;
+     line-height:18px;
+ }
+ 
+ .hero6-btn{
+     width: 100px;
+     height: 32px;
+     margin-top:20px;
+ }
+ 
+ .hero6-right{
+     width: 50%;
+ }
+
+ .hero6-right img{
+  width:100%;
+ }
+
+ /* hero 7 */
+
+ .hero7{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.hero7-left{
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 30px; 
+}
+
+.hero7-left img{
+ width:80%;
+}
+
+
+
+.hero7-right{
+    margin-top: 100px;
+    margin-right:0px;
+    width:60%;
+}
+.hero7-right h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero7-right p{
+    margin-top: 5px;
+    line-height:18px;
+    font-size: 14px;
+}
+
+.hero7-btn{
+    width: 100px;
+    height: 32px;
+    margin-top:10px;
+}
+
+/* hero 8 */
+
+.hero8-left {
+    margin-top:30px; 
+    margin-left: 0px;
+    width: 50%;
+    padding-right: 5px;
+}
+
+.hero8-left h1{
+    font-size: 30px;
+}
+.hero8-left p{
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.hero8-btn{
+    width: 100px;
+    height: 32px;
+    margin-top:10px; 
+}
+
+/* heron9 */
+
+.hero9{
+    margin-top:50px;
+}
+
+.hero9-left{
+    width:40%;
+}
+
+.hero9-left h1{
+font-size:30px;
+line-height:35px;
+}
+
+.hero9-right{
+    margin-top: 10px;
+    width:60%;
+}
+
+.hero9-right p{
+    line-height:19px;
+    font-size:13px;
+}
+
+/* hero 10 */
+.cards{
+    flex-wrap: nowrap;
+    width:85%;
+ 
+}
+
+.card{
+    margin: 0px 10px;
+    width:29%;
+}
+
+.card h1{
+    font-size:16px;
+    margin:4px 0px;
+}
+
+.card p{
+    font-size: 11px;
+    line-height:15px;
+}
+
+.hero10-btn{
+    width: 110px;
+    height:37px;
+}
+
+}
+
+/*desktop  */
+@media (min-width:993px) and (max-width:1200px){
+    .hero6-left {
+        margin-top:30px; 
+        width:60%;
+        padding-right:10px;
+    }
+    
+    .hero6-left h1{
+        font-size:35px;
+    }
+    
+    .hero6-left p{
+        margin-top: 5px;
+        font-size: 14px;
+        line-height:18px;
+    }
+    
+    .hero6-btn{
+        width: 100px;
+        height: 32px;
+        margin-top:20px;
+    }
+    
+    .hero6-right{
+        width: 50%;
+    }
+   
+    .hero6-right img{
+     width:100%;
+    }
+   
+    /* hero 7 */
+   
+    .hero7{
+       width: 75%;
+       display: flex;
+       justify-content: space-between;
+       margin: auto;
+   }
+   
+   .hero7-left{
+       width: 50%;
+       margin-left: 0px;
+       margin-top: 30px; 
+   }
+   
+   .hero7-left img{
+    width:80%;
+   }
+   
+   
+   
+   .hero7-right{
+       margin-top: 100px;
+       margin-right:0px;
+       width:60%;
+   }
+   .hero7-right h1{
+       font-size: 35px;
+       font-family: 'Roboto', sans-serif;
+   }
+   
+   .hero7-right p{
+       margin-top: 5px;
+       line-height:18px;
+       font-size: 14px;
+   }
+   
+   .hero7-btn{
+       width: 100px;
+       height: 32px;
+       margin-top:10px;
+   }
+   
+   /* hero 8 */
+   
+   .hero8-left {
+       margin-top:30px; 
+       margin-left: 0px;
+       width: 50%;
+       padding-right: 5px;
+   }
+   
+   .hero8-left h1{
+       font-size: 35px;
+   }
+   .hero8-left p{
+       margin-top: 5px;
+       line-height: 18px;
+       font-size: 14px;
+   }
+   
+   .hero8-btn{
+       width: 100px;
+       height: 32px;
+       margin-top:10px; 
+   }
+
+   /* hero 10 */
+   .cards{
+    flex-wrap: nowrap;
+    width:80%;
+    /* border: 2px solid red; */
+ 
+}
+
+.card{
+    margin: 0px 10px;
+    width:29%;
+    /* border: 2px solid green; */
+}
+
+.card h1{
+    font-size:16px;
+    margin:4px 0px;
+}
+
+.card p{
+    font-size: 11px;
+    line-height:15px;
+}
+
+.hero10-btn{
+    width: 110px;
+    height:37px;
+}
+}
